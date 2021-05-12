@@ -4928,10 +4928,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 595783603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b21e39a8dfb3874488f30201b5bcfd1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 854a4a1c7dbf08d4ebc5e7c4f6de0ced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToToggle: {fileID: 1355982209}
+  timer: 55
+  ActivateObjectAfterTimer: 1
+  DeactivateObjectAfterTimer: 0
+  ToggleOnOnly: 0
+  ToggleOffOnly: 0
+  delayTime: 0
 --- !u!114 &595783605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5032,7 +5038,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-141804
+  m_Name: pb_Mesh17050
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7114,7 +7120,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-154678
+  m_Name: pb_Mesh16978
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7803,7 +7809,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355982209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -101.56, y: 8.66, z: 51.25}
+  m_LocalPosition: {x: -89.4, y: 8.66, z: 51.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8171,7 +8177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb110c372ec39d349a337ee55fa6f116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportLocation: {fileID: 1228838522}
 --- !u!1 &1515103511
 GameObject:
   m_ObjectHideFlags: 0
@@ -9558,7 +9563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 33148147075590270, guid: 9ddc8d3d446515948b1c4ca9eaea8e4b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.19816475
+      value: -0.19816473
       objectReference: {fileID: 0}
     - target: {fileID: 33148147075590270, guid: 9ddc8d3d446515948b1c4ca9eaea8e4b, type: 3}
       propertyPath: m_LocalRotation.z
