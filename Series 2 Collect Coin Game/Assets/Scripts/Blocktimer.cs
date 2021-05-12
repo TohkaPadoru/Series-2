@@ -26,7 +26,7 @@ public class Blocktimer : MonoBehaviour
 
         {
             Debug.Log("collision");
-            Invoke("DisableBlock", 2.0f);
+            Invoke("DisableBlock", 0.8f);
 
         }
         

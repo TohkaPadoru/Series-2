@@ -7,6 +7,8 @@ TagManager:
   - Destroyable
   - Platform
   - Switch
+  - Ball
+  - Plane
   layers:
   - Default
   - TransparentFX
